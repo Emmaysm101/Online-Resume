@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;;
+}
+header {
+    background-color: gainsboro;
+    text-align: center;  
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+    
+}
+.current-page {
+    border-bottom: 1px solid #707070;
+    
+}
+#main {
+    
+    border-width: thin;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    max-width: 900px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#image_session {
+    margin-left: 3rem;
+    flex-basis: 20%;
+    margin-right: 0;
+    align-items: flex-end;
+    margin: 0 auto;
+    
+}
+
+#image {
+    max-width: 80%;
+    max-height:90%;
+    border-radius: 5%;
+
+}
+
+#name {
+    margin-left: 0;
+    height: 100%;
+    text-align: left;
+    flex-basis: 45%;
+    align-content: flex-start;    
+    margin: 0 auto;
+    text-decoration: none;
+
+}
+
+#contact {
+    text-decoration: none;
+    text-align: left;
+    flex-basis: 30%;
+    
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.col-1{
+    width: 70%;
+    
+    
+}
+.col-2 {
+    width: 30%;
+    margin-left: 5rem;
+    margin-right: 0;
+    
+        
+}
+.name_period {
+    display: flex;
+    justify-content:space-between;
+}
+h4 {
+    color: #1792D2;
+}
+h3 {
+    color: #143774;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    color: #1792d2;
+}
+
+@media (max-width: 480px) {
+    .columns{
+        display: flex;
+        flex-direction:column;
+        font-size: 1rem;
+    }
+    #top {
+        font-size: 1rem;
+    }
+    #one {
+        display: flex;
+        flex-direction:column;
+        font-size: 1rem;
+    }
+}
